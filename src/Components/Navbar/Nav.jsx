@@ -49,7 +49,7 @@ const Nav = () => {
       </div>
 
       {/* Mobile Menu */}
-      <div className={`sm:hidden ${isMobileMenuOpen ? 'block' : 'hidden'} text-center`} id="mobile-menu">
+      <div className={`sm:hidden ${isMobileMenuOpen ? 'block' : 'hidden'} flex justify-center items-center text-center h-screen`} id="mobile-menu">
         <div className="space-y-1 px-2 pb-3 pt-2">
           {['Home', 'About', 'Skills', 'Project', 'Contact'].map((section) => (
             <Link
