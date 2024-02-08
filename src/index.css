@@ -17,6 +17,12 @@ body{
   }
 }
 
+@media (max-width: 706px ) and (min-width: 473px) {
+  .text-lg {
+    font-size: 2rem;
+  }
+}
+
 
 
 
