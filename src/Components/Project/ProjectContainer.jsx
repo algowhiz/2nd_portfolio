@@ -30,7 +30,7 @@ import { useSpring, animated } from 'react-spring';
       id: 3,
       imgSrc: iImage3,
       projectName: 'Dragon game',
-      projectDesc: `Welcome to the Currency Converter! This tool allows you to convert between different currencies, providing you with up-to-date exchange rates. Simply enter the amount, select the source currency, choose the target currency, and click the "Convert" button to get the converted amount. I had use Api call for currency as well as for flags  `,
+      projectDesc: `Embark on an epic adventure with our Dragon Game! In this thrilling web-based game, players will journey through enchanted lands inhabited by mighty dragons. Utilizing HTML for structure, CSS for styling, and JavaScript for interactivity, players will navigate through challenges, battle fierce dragons, and collect treasures along the way. With stunning visuals and immersive gameplay, our Dragon Game promises an exhilarating experience for all who dare to enter the realm of dragons`,
       langIcons: [<FaHtml5 key="html" size={30} />, <IoLogoCss3 key="css" size={30}/>, <FaSquareJs key="js" size={30}/>],
       link:'https://github.com/algowhiz/Projects/tree/main/dragon',
       live:'https://dragon-game-3636.netlify.app/',
