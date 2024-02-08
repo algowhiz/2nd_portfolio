@@ -58,7 +58,7 @@ import { useSpring, animated } from 'react-spring';
   return (
     <div className="container mx-auto py-10" name="Project">
       <h2 className="text-3xl font-bold mb-8 text-center">Projects</h2>
-      <animated.div style={springProps} className="bg-[#23283e] p-6 transition transform hover:scale-105">
+      <animated.div style={springProps} className="bg-[rgb(1, 14, 53)] p-6 transition transform hover:scale-105">
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         {projects.map((project) => (
           <div key={project.id} className="bg-[#23283e] p-6 border-2 rounded-lg shadow-md">
