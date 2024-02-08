@@ -39,7 +39,7 @@ import { useSpring, animated } from 'react-spring';
       id: 4,
       imgSrc: iImage4,
       projectName: 'Whack a Mole',
-      projectDesc: `Welcome to the Currency Converter! This tool allows you to convert between different currencies, providing you with up-to-date exchange rates. Simply enter the amount, select the source currency, choose the target currency, and click the "Convert" button to get the converted amount. I had use Api call for currency as well as for flags  `,
+      projectDesc: `Our Whack-a-Mole game project will bring the classic arcade experience to the web, combining HTML for the structure, CSS for styling, and JavaScript for interactivity. Players will face a grid of holes where moles randomly pop up, and their objective is to quickly click on them before they disappear. We'll use HTML to define the game's layout, CSS to design the visual elements including the mole characters and background, and JavaScript to handle the game logic such as timing, scoring, and mole animations`,
       langIcons: [<FaHtml5 key="html" size={30} />, <IoLogoCss3 key="css" size={30}/>, <FaSquareJs key="js" size={30}/>],
       link:'https://github.com/algowhiz/Projects/tree/main/mole_game',
     },
