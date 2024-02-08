@@ -61,7 +61,7 @@ import { useSpring, animated } from 'react-spring';
       <animated.div style={springProps} className="bg-[rgb(1, 14, 53)] p-6 transition transform hover:scale-105">
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         {projects.map((project) => (
-          <div key={project.id} className="bg-[#23283e] p-6 border-2 rounded-lg shadow-md">
+          <div key={project.id} className="bg-[rgb(1, 14, 53)] p-6 border-2 rounded-lg shadow-md">
             <img src={project.imgSrc} alt={project.projectName} className="w-full h-auto mb-4 rounded-lg" />
 
             <h3 className="text-xl font-bold mb-2">{project.projectName}</h3>
