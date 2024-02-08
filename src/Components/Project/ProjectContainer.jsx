@@ -17,7 +17,6 @@ import { useSpring, animated } from 'react-spring';
       projectDesc: `Built with React.js and powered by Redux, this project is a faithful recreation of the Netflix user interface. Leveraging React's component-based architecture and Redux for state management, it delivers a seamless and interactive browsing experience reminiscent of the popular streaming platform.  `,
       langIcons: [<FaHtml5 key="html" size={30} />, <IoLogoCss3 key="css" size={30}/>, <FaSquareJs key="js" size={30}/>,<FaReact key="react" size={30} />],
       link:'https://github.com/algowhiz/Clones/tree/main/src',
-      live:'https://dragon-game-3636.netlify.app/',
     },
     {
       id: 2,
@@ -34,6 +33,7 @@ import { useSpring, animated } from 'react-spring';
       projectDesc: `Welcome to the Currency Converter! This tool allows you to convert between different currencies, providing you with up-to-date exchange rates. Simply enter the amount, select the source currency, choose the target currency, and click the "Convert" button to get the converted amount. I had use Api call for currency as well as for flags  `,
       langIcons: [<FaHtml5 key="html" size={30} />, <IoLogoCss3 key="css" size={30}/>, <FaSquareJs key="js" size={30}/>],
       link:'https://github.com/algowhiz/Projects/tree/main/dragon',
+      live:'https://dragon-game-3636.netlify.app/',
     },
     {
       id: 4,
