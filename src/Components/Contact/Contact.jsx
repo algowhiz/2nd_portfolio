@@ -26,32 +26,33 @@ const Contact = () => {
 
 
 
-                <div className="min-h-screen bg-[rgb(1, 14, 53)] flex justify-center items-center ">
-                    <form action="https://getform.io/f/8a6ce622-d082-4360-9eb2-746d74f99c27" method='POST' className="bg-[rgb(1, 14, 53)]  shadow-lg rounded px-8 pt-6 pb-8 mb-4 w-full sm:w-2/3 md:w-1/2 lg:w-1/3 xl:w-1/4">
+                <div className="min-h-screen bg-[rgb(1, 14, 53)] flex justify-center items-center form">
+                    <form action="https://getform.io/f/8a6ce622-d082-4360-9eb2-746d74f99c27" method='POST' className="bg-[rgb(1, 14, 53)] shadow-lg rounded px-8 pt-6 pb-8 mb-4 w-full sm:w-2/3 md:w-1/2 lg:w-1/3 xl:w-1/4">
                         <div className="mb-4">
                             <input
-                                className="shadow appearance-none border rounded w-full py-2 px-3 text-black leading-tight focus:outline-none focus:shadow-outline"
-                                id="name" name='name' type="text" placeholder="Your Name" />
+                                className="shadow appearance-none border rounded w-full py-2  text-black leading-tight focus:outline-none focus:shadow-outline p-3"
+                                id="name" name='name' type="text" placeholder="Your Name"/>
                         </div>
                         <div className="mb-4">
                             <input
-                                className="shadow appearance-none border rounded w-full py-2 px-3 text-black mb-3 leading-tight focus:outline-none focus:shadow-outline"
-                                id="email" name='email' type="email" placeholder="Email" />
+                                className="shadow appearance-none border rounded w-full py-2 text-black mb-3 leading-tight focus:outline-none focus:shadow-outline p-3"
+                                id="email" name='email' type="email" placeholder="Email"/>
                         </div>
                         <div className="mb-6">
                             <textarea
-                                className="shadow appearance-none border rounded w-full py-2 px-3 text-black mb-3 leading-tight focus:outline-none focus:shadow-outline"
+                                className="shadow appearance-none border rounded w-full py-2 text-black mb-3 leading-tight focus:outline-none focus:shadow-outline p-3"
                                 id="message" name='message' placeholder="Message" rows="5"></textarea>
                         </div>
-                        <div className="flex items-center justify-center ">
+                        <div className="flex items-center justify-center">
                             <button
-                                className= "bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                                 type="submit">
                                 Let's Collaborate
                             </button>
                         </div>
                     </form>
                 </div>
+
 
 
 
