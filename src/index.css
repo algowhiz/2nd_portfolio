@@ -24,5 +24,10 @@ body{
 }
 
 
+@media (max-width: 200px ) and (min-width: 800px) {
+  .form {
+    width: 500px;
+  }
+}
 
 
