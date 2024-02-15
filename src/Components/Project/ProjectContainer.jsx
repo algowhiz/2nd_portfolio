@@ -42,6 +42,7 @@ import { useSpring, animated } from 'react-spring';
       projectDesc: `Our Whack-a-Mole game project will bring the classic arcade experience to the web, combining HTML for the structure, CSS for styling, and JavaScript for interactivity. Players will face a grid of holes where moles randomly pop up, and their objective is to quickly click on them before they disappear. We'll use HTML to define the game's layout, CSS to design the visual elements including the mole characters and background, and JavaScript to handle the game logic such as timing, scoring, and mole animations`,
       langIcons: [<FaHtml5 key="html" size={30} />, <IoLogoCss3 key="css" size={30}/>, <FaSquareJs key="js" size={30}/>],
       link:'https://github.com/algowhiz/Projects/tree/main/mole_game',
+      live:'https://astonishing-blancmange-05bc5c.netlify.app/',
     },
     // Add more projects as needed
   ];
