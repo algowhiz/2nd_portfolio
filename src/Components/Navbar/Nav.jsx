@@ -13,7 +13,7 @@ const Nav = () => {
     <nav className=" mt-4">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex items-center justify-between">
         <div className="flex items-center">
-          <h2 className='text-3xl'>MK</h2>
+          <h2 className='text-3xl'>manish.dev</h2>
         </div>
         <div className="hidden sm:block">
           <div className="flex space-x-4">
